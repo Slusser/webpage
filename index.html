@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<title>Jakub Slusarek</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet' href="style.css">
+
+<body class="w3-black">
+
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+  <img src="side.jpg" style="width:100%">
+
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>O MNIE</p>
+  </a>
+  <a href="#stack" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>STACK</p>
+  </a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJEKTY</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>KONTAKT</p>
+  </a>
+</nav>
+
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">O MNIE</a>
+    <a href="#stack" class="w3-bar-item w3-button" style="width:25% !important">STACK</a>
+    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJEKTY</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">KONTAKT</a>
+  </div>
+</div>
+
+<div class="w3-padding-large" id="main">
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><!--<span class="w3-hide-small">I'm</span>--> Jakub Ślusarek</h1>
+    <p>Fron-end developer / Inż. Automatyki</p>
+  </header>
+
+  <div class="w3-content w3-justify w3-text-grey" style='padding-bottom: 64px;' >
+    <h2 class="w3-text-light-grey">O mnie</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>W 2017 roku ukończyłem <nobr>Politechnikę Wrocławską</nobr> jako inż. Automatyki i Robotyki. Ostanie 2,5 roku pracowałem jako <nobr>Programista PLC</nobr> uruchamiając nowe linie produkcyjne dla koncernu
+        <nobr>Daimler AG</nobr> w <nobr>Tuscaloosa, USA.</nobr> W  związku z chęcią zmiany branży zainteresowałem się technologiami Front-endowymi, w szczególności programowaniem w JavaScript.
+        <br>Swoją przyszłość zawodową wiążę z branżą IT — w tym celu we własnym zakresię staram uczyć się wszystkich potrzebnych narzędzi oraz wykorzystywać je w projektach praktycznych. 
+        Kilka z nich mogą Państwo znaleźć w sekcji <a href="#projects">Projekty</a>
+        <br>W wolnych chwilach staram się podróżować. Hobbystycznie zajmuję się również fotografią.
+    </p>
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Pobierz CV
+    </button>
+    <div id="stack" style="padding-top: 12px; padding-bottom: 12px;">
+        <h3 class="w3-padding-16 w3-text-light-grey">Stack technologiczny</h3>
+        <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+            <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">Front-end</li>
+            <li class="w3-padding-16">JavaScript</li>
+            <li class="w3-padding-16">HTML 5</li>
+            <li class="w3-padding-16">CSS</li>
+            <li class="w3-padding-16">...</li>
+            </ul>
+        </div>
+
+        <div class="w3-half">
+            <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">Inne</li>
+            <li class="w3-padding-16">programowanie PLC</li>
+            <li class="w3-padding-16">SIMATIC STEP7</li>
+            <li class="w3-padding-16">SOLIDWORKS 3D</li>
+            <li class="w3-padding-16">Pneumatyka FESTO</li>
+            <li class="w3-padding-16">Falowniki LENZE</li>
+            </ul>
+        </div>
+        </div>
+    </div>  
+  </div>
+  
+  <div class="w3-padding-64 w3-content" id="projects">
+    <h2 class="w3-text-light-grey">Projekty</h2>
+    <p class="w3-opacity">Kod źródłowy do każdego z projektów dostępny jako repozutorium na <a href="https://github.com/Slusser">Github</a></p>
+    <hr style="width:100%" class="w3-opacity">
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-full">
+        <div class="w3-full" style="display: inline-block; height: auto;">
+            <a href="https://github.com/Slusser/TableFetch"><img src="Proj1.PNG" class="w3-half" ></a>
+            <div class="w3-half w3-opacity" style='padding-left: 5px;'>
+                Aplikacja fetchująca dane i wrzucająca je do tabeli. Pozwala na obliczanie średniego i całkowitego przychodu dla wybranego przedziału czasu. 
+                Fetch dla poszczegołnych firm pozwala na obliczenie przychodu i średniej dla całego okresu. Dane te wyświetlane są w elementach Details.
+                <br><br>Użyte technologie:
+                <ul>
+                    <li>JS</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Framework DataTable</li>
+                </ul>
+            </div>
+        </div>
+        <hr style="width:100%" class="w3-opacity">
+        <img src="" style="width:100%">
+        <hr style="width:100%" class="w3-opacity">
+        <img src="" style="width:100%">
+      </div>
+    </div>
+
+
+  </div>
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Kontakt</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chorzów, PL</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Telefon: +48 508 719 607</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: slusarekjakub@gmail.com</p>
+    </div><br>
+    <p>Masz pytania? Wyślij wiadomość:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Imię" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Temat" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Wiadomość" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> WYŚLIJ
+        </button>
+      </p>
+    </form>
+  </div>
+  
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a target="_blank" href="https://github.com/Slusser"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a target="_blank"href="https://www.linkedin.com/in/jakub-%C5%9Blusarek-6b087a181/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a target="_blank"href="https://www.facebook.com/jakub.adam.slusarek"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a target="_blank"href="https://www.instagram.com/j_slusarek/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  </footer>
+</div>
+
+</body>
+</html>
